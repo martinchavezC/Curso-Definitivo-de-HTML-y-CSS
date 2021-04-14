@@ -62,11 +62,26 @@
                 <span>correo</span>
                 <input type="email" id="correo" autocomplete="email" name="correo" required>
             </label>
-            <label for="pais">
+
+            <!-- <label for="pais">
                 <span>país</span>
                 <input type="text" autocomplete="country" id="pais" name="pais" required>
-            </label>
-            
+            </label> -->
+
+
+            <!-- <select name="pais" id="">
+                <option value="Mexico">Mexico</option>
+                <option value="USA">USA</option>
+                <option value="Canada">CANADA</option>
+            </select> -->
+            <input list="Pais">
+            <datalist id="Pais">
+                <option value="Mexico">Mexico</option>
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+            </datalist>
+
+          
             <label for="cp">
                 <span>Coloca tú C.P</span>
                 <input type="text" autocomplete="postal-code" id="cp" name="cp" required>
