@@ -50,7 +50,29 @@
             <input type="datetime-local" id="calendario" name="calendario">
         </label>
             <input type="submit">
-      
     </form>
+    <br />
+    <main>
+        <h1>autocomplete&require</h1>
+        <form action="">
+            <label for="nombre">
+                <input type="text" id="nombre" placeholder="tú nombre" name="nombre" autocomplete="name"require >
+            </label>
+            <label for="correo">
+                <span>correo</span>
+                <input type="email" id="correo" autocomplete="email" name="correo" required>
+            </label>
+            <label for="pais">
+                <span>país</span>
+                <input type="text" autocomplete="country" id="pais" name="pais" required>
+            </label>
+            
+            <label for="cp">
+                <span>Coloca tú C.P</span>
+                <input type="text" autocomplete="postal-code" id="cp" name="cp" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
 </body>
 </html>
