@@ -1,0 +1,15 @@
+p /* etiquetas */{
+    font-size: 25px;
+    color: blue;
+}
+
+/* class */
+.parrafo{
+    color: crimson;
+}
+
+/* ID */
+#texto{
+    color: rgb(19, 171, 59);
+    font-size: 50px;
+}

@@ -56,12 +56,13 @@
         <h1>autocomplete&require</h1>
         <form action="">
             <label for="nombre">
-                <input type="text" id="nombre" placeholder="tú nombre" name="nombre" autocomplete="name"require >
+                <input type="text" id="nombre" placeholder="tú nombre" name="nombre" autocomplete="name" require >
             </label>
             <label for="correo">
                 <span>correo</span>
                 <input type="email" id="correo" autocomplete="email" name="correo" required>
             </label>
+
 
             <!-- <label for="pais">
                 <span>país</span>
@@ -74,6 +75,8 @@
                 <option value="USA">USA</option>
                 <option value="Canada">CANADA</option>
             </select> -->
+
+
             <input list="Pais">
             <datalist id="Pais">
                 <option value="Mexico">Mexico</option>
@@ -86,7 +89,9 @@
                 <span>Coloca tú C.P</span>
                 <input type="text" autocomplete="postal-code" id="cp" name="cp" required>
             </label>
-            <input type="submit">
+            <input type="submit" value="nombre">
+            
+            <button>Enviar</button>
         </form>
     </main>
 </body>
