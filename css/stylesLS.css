@@ -2,6 +2,13 @@ img{
     width: 100px;
     height: 150px;
 }
+h1{
+    background-color: rgb(220, 175, 116);
+    color: rgb(154, 94, 16);
+    margin:  0;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
 #bstk{
     width: 170px;
     height: 150px;
@@ -14,9 +21,9 @@ img{
 }
 
 .main-nav{
-    margin-top: 10px;
-  
-    padding: 0px;
+    margin-top: -22px;
+    padding-left: 0;
+    padding-bottom: 5px;
     list-style: none;
     background-color:burlywood;
 }
@@ -31,11 +38,11 @@ img{
 }
 
 .main-nav__item a:hover{
-    color: brown;
+    color: rgb(167, 70, 18) ;
 }
 
 .main-nav__item a:active{
-    color: blue;
+    color: brown;
 }
 .main-nav__item a::after{
     content: "  | ";
